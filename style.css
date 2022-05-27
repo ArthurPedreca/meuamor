@@ -1,0 +1,128 @@
+html{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 97, 202, 0.418);
+}
+
+
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header div{
+    display: flex;
+    text-align: center;
+    background-color: rgb(141, 226, 184);
+    width: 300px;
+    height: 250px;
+    border-radius:10% ;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer img{
+    margin: 7px;
+    width: 20%;
+}
+
+
+main div{
+    background-color: rgb(141, 226, 184);
+    width: 180px;
+    height: 210px;
+    border-radius: 10% ;
+    margin: 5px ;
+}
+
+
+
+main h3{
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 65px;
+}
+
+
+main h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(49, 75, 73);
+    margin: 5px;
+    text-shadow: 0.1em 0.1em 0.1em rgba(49, 75, 73, 0.301);
+}
+
+
+p{
+    margin: 5px;
+    color:  rgb(49, 75, 73);
+}
+
+
+h3{
+    color: rgb(49, 75, 73);
+    font-size: 20px;    
+    margin: 5px;
+}
+
+
+
+
+
+
+
+/* classes */
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+.botao{
+    background-color: rgb(141, 226, 184);
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
